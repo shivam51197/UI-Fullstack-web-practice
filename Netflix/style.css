@@ -68,9 +68,21 @@ header-content h3{
 }
 
 .nt-input {
-    height: 30px;
+    height: 50px;
     width: 500px;
     border-radius: 4px;
     border: none;
     padding: 10px;
+}
+
+.ntt-btn {
+    border: none;
+    height: 45px;
+    width: 200px;
+    margin-left: 20px;
+    background: #db0001;
+    color:#fff;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
 }
