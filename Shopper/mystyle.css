@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: Segoe UI;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: baseline;
+}
+
+.brand-title {
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 15px;
+}
+
+nav span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.shortcuts span {
+    margin-right: 5px;
+}
+
+article {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Segoe UI;
+}
+
+.bi-lightning-fill {
+    color: goldenrod;
+}
+
+/* .pic{
+    display: flex;
+    height: 470px;
+    width: 470px;
+} */
+
+
+
+.pic {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    margin-bottom: 250px;
+    bottom: 10px;
+    /* Adjust this value to position the text */
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    /* Text color */
+    /* Background with transparency */
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    /* Adjusts the width of the text block */
+}
+
+.btn-1 {
+    position: absolute;
+    bottom: 10px;
+    /* Adjust this value to position the button */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    /* White background */
+    color: black;
+    /* Button text color */
+    border: none;
+    /* No border */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    display: inline-flex;
+    font-size: 24px;
+
+}
+
+
+.btn-1:hover {
+    background-color: #557daa;
+    /* Slightly darker white on hover */
+}
+
+.footer-section {
+    background-color: #f8f8f8;
+    /* Light gray background */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* Allows items to wrap on smaller screens */
+    max-width: 1200px;
+    margin: 0 auto;
+    /* Centers the container */
+}
+
+.footer-item {
+    flex: 1;
+    margin: 20px;
+    min-width: 200px;
+}
+
+.footer-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+    /* Dark text color */
+}
+
+.footer-item p {
+    font-size: 16px;
+    color: #666;
+    /* Medium dark text color */
+}
+
+
+
+.footer-page {
+    height: 500px;
+    width: 1350px;
+    background: black;
+    color: white;
+
+}
+
+.row-1 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 60px;
+    text-align: center;
+    font-family: Arial;
+
+}
+
+.row-2 {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.email {
+    display: inline-block;
+    padding: 20px;
+    background-color: #888;
+    color: white;
+    width: 300px;
+    text-align: left;
+
+}
+
+.subscribe {
+    display: inline-block;
+    padding: 20px;
+    background-color: #444;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    margin-top: 30px;
+}
+
+
+.col span {
+    display: block;
+    margin-top: 15px;
+}
+
+.col-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+aside span {
+    padding-right: 10px;
+    padding-top: 20px;
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cover-1 {
+    background-image: url(public/images/cover-1.jpg);
+}
+
+.cover-2 {
+    background-image: url(public/images/cover-2.jpg);
+}
+
+.cover-3 {
+    background-image: url(public/images/cover-3.jpg);
+}
+
+.card {
+    display: flex;
+    height: 470px;
+    width: 450px;
+} */

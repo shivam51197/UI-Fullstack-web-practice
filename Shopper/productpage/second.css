@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100%;
+    
+}
+/* .wrapper{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+.text{
+    flex-basis: 45%;
+
+}
+.all- images{
+    height: 80vh;
+    display: flex;
+}
+.small-images{
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 18px;
+    padding-left: 15px;
+     
+} 
+.small-images img{
+    height: 19vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.small-images img:hover{
+    opacity: 1;
+}
+.main-images img{
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 22px;
+}
+p{
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.brand{
+    background-color: #008000;
+    width: fit-content;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 5px;
+    margin-left: 15px;
+    margin-top: 10px;
+    /* padding-left: 10px; */
+}
+h3{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    padding-left: 10px;
+
+}
+.review{
+    background-color: #008000;
+    display: inline-block;
+    color: #fff;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+.btn{
+    font-size: 15px;
+    padding: 10px;
+    border: 0;
+    margin-left: 15px;
+    width: 120px;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 15px;
+   
+}
+
+.add-to-cart {
+    background-color:  rgb(243, 220, 12);
+    margin-top: 28px
+}
+
+.buy-now {
+    background-color:  rgb(204, 96, 7);
+    margin-top: 28px
+}
+/* .buy{
+    background: rgb(204, 96, 7);
+    font-size: 15px;
+    padding: 6px;
+    border: 0;
+    margin-left: 15px;
+    width: 130px;
+} */
+.review.fa{
+    counter-reset: #fff;
+}
+.price{
+    color: rgb(29 28 28);
+    font-size: 26;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 12px;
+}
+.price-box{
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 30px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-align:center;
+}
+.cut-tag{
+   color:green;
+}
+ol{
+    padding: 15px;
+    list-style: none;
+    /* padding-left: 80px; */
+   
+}
+li{
+    /* padding-bottom: 10px; */
+    
+}
+section{
+    /* display: flex; */
+}
+.test{
+    /* display: flex; */
+}

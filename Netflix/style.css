@@ -1,35 +1,38 @@
-*{
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins',sans-serif;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
-body{
+
+body {
     color: #fff;
 }
+
 .root {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(29, 28, 28, 0.938),rgba(0,0,0,0)), url(public/images/banner.jpg);
+    background-image: linear-gradient(rgba(29, 28, 28, 0.938), rgba(0, 0, 0, 0)), url(public/images/banner.jpg);
     background-size: cover;
     background-position: center;
     padding: 10px, 8%;
     position: relative;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
 }
 
-.logo{
+.logo {
     width: 200px;
     cursor: pointer;
     margin-left: 10px;
 }
 
-.header-content{
+.header-content {
     position: center;
     top: 50%;
     left: 50%;
@@ -39,28 +42,44 @@ nav{
 
 }
 
-header-content h1{
-    font-size: 60px;
-    line-height: 70px;
-    font-weight: 600px;
-    max-width: 650px;
+.value {
+    background: white !important;
+    color: black !important;
 }
 
-header-content h3{
+.mypara {
+    font-size: 45px;
+    line-height: 70px;
+    font-weight: bold;
+    max-width: 650px;
+    padding: 20px;
+}
+
+.mypapa-1{
     font-weight: 400px;
     margin-bottom: 20px;
+    padding: 20px;
+}
+.mypara-2{
+    margin-top: 15px;
 }
 
-.nt-btn {
+.nt-btn, .nt-dropdown {
     border: none;
     height: 30px;
     width: 100px;
     margin-right: 10px;
     background: #db0001;
-    color:#fff;
+    color: #fff;
     font-size: 12px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.nt-dropdown {
+    background: rgba(124, 119, 119, 0.925) !important;
+    margin-right: 30px !important;
+    border: 0.1px solid white;
 }
 
 .signup-frm {
@@ -68,21 +87,29 @@ header-content h3{
 }
 
 .nt-input {
+    border: 0.1px solid white;
     height: 50px;
-    width: 500px;
+    width: 400px;
     border-radius: 4px;
-    border: none;
+
     padding: 10px;
+    background: hsl(-5, 3%, 10%);
+    color: #fff;
 }
 
 .ntt-btn {
     border: none;
     height: 45px;
-    width: 200px;
+    width: 180px;
     margin-left: 20px;
     background: #db0001;
-    color:#fff;
-    font-size: 12px;
+    color: #fff;
+    font-size: 20px;
     border-radius: 4px;
     cursor: pointer;
+
 }
+
+/* span{
+    font-weight: bold;
+} */
