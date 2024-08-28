@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header {
+            height: 70px;
+            font-size: 20px;
+            /* font-weight: bold; */
+            font-family: Arial;
+            background: rgb(235, 115, 115);
+            color: white;
+            padding-left: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 10px;
+        }
+
+        nav span {
+            color: white;
+        }
+
+        .setimg {
+            width: 50vw;
+            text-align: center;
+        }
+
+        .setimg img {
+            width: 50px;
+            height: 20%;
+        }
+
+        .song {
+            list-style: none;
+            font-size: 12px;
+        }
+
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .card {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            width: 100px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            margin: 10px;
+            font-size: 15px;
+            font-family: Arial;
+        }
+
+        .artist {
+            display: flex;
+            border: 1px groove black;
+            padding: 10px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .artist:target {
+            background-color: rgb(160, 90, 108);
+            color: white;
+        }
+
+        .artist:target span.bi.bi-play-circle {
+            color: white;
+        }
+
+        /* .list:target {
+            background-color: yellow;
+            color: black;
+        } */
+
+
+        span.bi.bi-play-circle {
+            color: black;
+        }
+        /* .song li:target{
+            color: yellow;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="title">Music. </div>
+        <div class="setimg">
+            <a href="#artist-1"><img src="../public/images/artist-1.PNG" width="100" height="100"> </a>
+            <a href="#artist-2"> <img src="../public/images/artist-2.PNG" width="100" height="100"> </a>
+            <a href="#artist-3"> <img src="../public/images/artist-3.PNG" width="100" height="100"> </a>
+            <a href="#artist-4"> <img src="../public/images/artist-4.PNG" width="100" height="100"> </a>
+        </div>
+        <div>
+            <ul class="song">
+                <li><a href="#song1">song-1</a></li>
+                <li><a href="#song2">song-2</a></li>
+                <li><a href="#song3">song-3</a></li>
+                <li><a href="#song4">song-4</a></li>
+            </ul>
+        </div>
+        <nav>
+            <span class="bi bi-person-fill"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart2"></span>
+        </nav>
+    </header>
+    <section>
+        <div id="artist-1" class="artist">
+            <h3>A. R. Rahman</h3>
+
+
+            <div class="card" id="song-1">
+                <div>
+                    <a href="https://www.youtube.com/watch?v=rm5-KhqwqeQ" target="_blank"><span
+                            class="bi bi-play-circle "></span></a>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-1</span>
+                </div>
+            </div>
+            <div class="card" id="song-2">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-2</span>
+                </div>
+            </div>
+            <div class="card" id="song-3">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-3</span>
+                </div>
+            </div>
+            <div class="card" id="song-4">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-4</span>
+                </div>
+            </div>
+            <div class="card" id="song-5">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-5</span>
+                </div>
+            </div>
+        </div>
+        <!-- ---this is for 1 artist---* -->
+
+        <div id="artist-2" class="artist">
+            <h3>Pritam</h3>
+            <div class="card" id="song-1">
+                <div>
+                    <a href="https://www.youtube.com/watch?v=63L2BJKlChE" target="_blank"><span
+                        class="bi bi-play-circle "></span></a>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-1</span>
+                </div>
+            </div>
+            <div class="card" id="song-2">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-2</span>
+                </div>
+            </div>
+            <div class="card" id="song-3">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-3</span>
+                </div>
+            </div>
+            <div class="card" id="song-4">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-4</span>
+                </div>
+            </div>
+            <div class="card" id="song-5">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-5</span>
+                </div>
+            </div>
+        </div>
+        <div id="artist-3" class="artist">
+            <h3>Vishal Mishra</h3>
+            <div class="card" id="song-1">
+                <div>
+                    <a href="https://www.youtube.com/watch?v=K0ibsAQTyRQ" target="_blank"><span
+                        class="bi bi-play-circle "></span></a>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-1</span>
+                </div>
+            </div>
+            <div class="card" id="song-2">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-2</span>
+                </div>
+            </div>
+            <div class="card" id="song-3">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-3</span>
+                </div>
+            </div>
+            <div class="card" id="song-4">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-4</span>
+                </div>
+            </div>
+            <div class="card" id="song-5">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-5</span>
+                </div>
+            </div>
+        </div>
+        <div id="artist-4" class="artist">
+            <h3>Arijit Singh</h3>
+            <div class="card" id="song-1">
+                <div>
+                    <a href="https://www.youtube.com/watch?v=QXJyMpxd210" target="_blank"><span
+                        class="bi bi-play-circle "></span></a>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-1</span>
+                </div>
+            </div>
+            <div class="card" id="song-2">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-2</span>
+                </div>
+            </div>
+            <div class="card" id="song-3">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-3</span>
+                </div>
+            </div>
+            <div class="card" id="song-4">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-4</span>
+                </div>
+            </div>
+            <div class="card" id="song-5">
+                <div>
+                    <span class="bi bi-play-circle "></span>
+                    <span class="bi bi-pause-circle "></span>
+                </div>
+                <div>
+                    <span>song-5</span>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.youtube.com/watch?v=VIDEO_ID" target="_blank">Click here to watch the video on YouTube</a>
+    </section>
+
+</body>
+
+</html>
