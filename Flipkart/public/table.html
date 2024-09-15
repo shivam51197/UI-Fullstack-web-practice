@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .bi-circle-fill {
+            font-size: 6px;
+        }
+
+        .flag {
+            width: 12%;
+        }
+
+        .flag+span {
+            font-family: Arial;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .player {
+            width: 100px;
+            height: 100px;
+        }
+
+        .row-1 {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+        }
+
+        .p-name {
+            font-family: Arial;
+            font-weight: bold;
+        }
+
+        table {
+            font-family: Arial;
+            /* background-color: aquamarine; */
+        }
+
+        thead {
+            color: gray;
+            background-color:aquamarine;
+        }
+
+        caption {
+            color: blue;
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        .col-1 {
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            justify-content: center;
+        }
+
+        tbody tr:first-child {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        /* .bi-chevron-up {
+            font-size: 13px;
+            font-weight: bold;
+            color:green;
+        }
+        td {
+            background-size: 200px 200px;
+            background-repeat: no-repeat;
+        } */
+         .colspan{
+            text-align: center;
+         }
+    </style>
+</head>
+
+<body>
+    <table width="100%" border="1" cellspacing="0" cellpadding="7">
+        <caption>MEN'S ALL-ROUNDER RANKINGS</caption>
+        <colgroup span="1"></colgroup>
+        <thead>
+            <tr>
+                <th  width="100">Pos</th>
+                <th  width="150">Team</th>
+                <th  width="200">Player</th>
+                <th  width="150">Rating</th>
+                <th  width="300">Career Best Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolor="gray">
+                <td>01<span class="bi bi-circle-fill"></span></td>
+                <td><img src="../public/images/india.png" class="flag"><span>IND</span></td>
+                <div class="row-1">
+                    <!-- <div class="col-1">
+                        <div><font size="4" color="gray">Ravindra</font></div>
+                        <div class="p-name">JADEJA</div>
+                    </div> -->
+                    <!-- <div>
+                        <img src="../public/images/jadeja.png" class="player">
+                    </div> -->
+                </div>
+                <td><small>Ravindra</small><span class="p-name">JADEJA</span><img src="../public/images/jadeja.png"
+                    class="player"></td>
+                <td>444</td>
+                <td align="right">469 v England at Rajkot 2024</td>
+            </tr>
+            <tr>
+                <td>02 <span class="bi bi-circle-fill"></span></td>
+                <td> <img src="../public/images/india.png" class="flag"> <span>IND</span> </td>
+                <td>
+                    <small>Ravichandran</small> <span class="p-name">ASHWIN</span>
+                </td>
+                <td>322</td>
+                <td align="right">492 v England at MOHALI 2016</td>
+            </tr>
+            <tr>
+                <td>03 <span class="bi bi-chevron-up"> </span> </td>
+                <td> <img src="../public/images/england.png" class="flag"> <span> ENGLAND </span> </td>
+                <td> <small>Chris</small> <span class="p-name">WOAKES</span> </td>
+                <td> 259 </td>
+                <td align="right">273 v Pakistan at Old Trafford 2020</td>
+            </tr>
+            <tr>
+                <td>04 <span class="bi bi-chevron-up"> </span> </td>
+                <td> <img src="../public/images/england.png" class="flag"> <span> ENGLAND </span> </td>
+                <td> <small>Joe</small> <span class="p-name">Root</span> </td>
+                <td> 293 </td>
+                <td align="right">313 v India at Hyderabad 2024</td>
+            </tr>
+            <tr>
+                <td>05 <span class="bi bi-chevron-up"> </span> </td>
+                <td> <img src="../public/images/india.png" class="flag"> <span>IND</span> </td>
+                <td> <small>Axar</small> <span class="p-name">PATEL</span> </td>
+                <td> 269 </td>
+                <td align="right">316 v Australia at Ahmedabad 2023</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="colspan">
+                <td colspan="5">Last updated on 31 August 2024</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

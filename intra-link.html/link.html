@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intra-link</title>
+    <style>
+        nav a {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+
+        }
+        section{
+            display: flex;
+            text-align: center;
+            border: 1px solid white;
+            justify-content: center;
+            margin-top: 12px;
+            
+        }
+        #html{
+            height: 110px;
+            width: 120px;
+            border: 1px solid gray;
+            border-radius: 30px;
+            margin: 10px;
+           margin: 10px;
+        }
+        #css{
+            height: 110px;
+            width: 120px;
+            border: 1px solid gray;
+            border-radius: 30px;
+            margin: 10px;
+            margin: 10px;
+        }
+        #js{
+            height: 110px;
+            width: 120px;
+            border: 1px solid gray;
+            border-radius: 30px;
+            margin: 10px;
+            margin: 10px;
+        }
+        .card:target{
+            background-color: rgb(241, 28, 28);
+            
+        }
+       
+        
+       
+    </style>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <a href="#html">HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#js">JavaScript</a>
+        </nav>
+        <section>
+            <div class="card" id="html">
+                <h2>HTML</h2>
+                <p>It is presentation</p>
+            </div>
+            <div class="card" id="css">
+                <h2>CSS</h2>
+                <p>It configure style </p>
+            </div>
+            <div class="card" id="js">
+                <h2>JavaScript</h2>
+                <p>It add behaviour</p>
+            </div>
+            
+        </section>
+    </div>
+</body>
+
+</html>

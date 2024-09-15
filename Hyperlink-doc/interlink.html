@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hyperlink document </title>
+    <link src="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+      a{
+        text-decoration: none;
+       
+      }
+      li{
+        list-style: none;
+      }
+      a:visited{
+        color:gray;
+      }
+      a:active{
+        color: red;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+      body {
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        iframe {
+            width: 100%;
+            height: 450px;
+            border:none;
+        }
+    </style>
+</head>
+<body>
+   <nav>
+    <ol>
+        <li><a href="../Shopper/home.html" target="_blank">Shopper Template</a></li>
+        <li><a href="../amazoncard/public/images/artist-4.PNG" target="frameBody">Arijit Singh</a></li>
+        <li><a href="../Shopper/public/images/cover-1.jpg" target="_blank">Men-Fashion</a></li>
+        <li><a href="javascript:window.open('../Shopper/public/images/cover-2.jpg','men','width=300 height=400')">men-Fashion</a></li>
+        <li><a href="../Shopper/public/images/cover-3.jpg" download="DSC00045">Kids-Fashion[download]</a></li>
+        <li><a href="https://wa.me/+919876543210"&gt;+919876543210  class="bi bi-messenger">Message</a></li>
+        <li><a href="https://www.instagram.com/nareshit&quot"; class="bi bi-instagram">NareshIT Instagram</a></li>
+        <li>Call<a href="tel:+919876543210">+919876543210</a></li>
+        <li>Mail<a href="info@nareshit.in">info@nareshit.in</a></li>
+        <li> <a href="javascript:window.print()" class="bi bi-printer-fill"> Print Page </a> </li>
+        <li> <a href="https://www.youtube.com/watch?v=lqKQaJ4wMq0" target="frameBody"> Oracle Tips </a></li>
+    </ol>
+   </nav>
+   <main>
+    <iframe name="frameBody"></iframe>
+ </main>
+</body>
+</html>

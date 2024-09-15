@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox with scroll</title>
+    <style>
+        form {
+            border: 2px solid black;
+            overflow: auto;
+            width: 400px;
+            height: 200px;
+
+        }
+
+        /* .label-item {
+            font-size: 30px;
+            font-family: Arial;
+            font-weight: bold;
+            position: sticky;
+        } */
+         h2{
+            position: fixed;
+         }
+        .btn{
+            margin-top: 20px;
+            padding: 12px;
+            background-color: aquamarine;
+            border: none;
+            border-radius: 7px;
+            color: blue;
+            margin-left: 20px;
+            width: 150px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div>
+            <div>
+                <h2>Select movies</h2><br><br><br><br>
+            </div>
+            <!-- <label>Select movies</label><br> -->
+            <input type="checkbox" name="movie" value="Saathi">Saathi<br>
+            <input type="checkbox" name="movie" value="Raanjhanaa"> Raanjhanaa<br>
+            <input type="checkbox" name="movie" value="Tiger Jinda hai">Tiger Jinda hai<br>
+            <input type="checkbox" name="movie" value="Jab Tak Hai Jaan"> Jab Tak Hai Jaan<br>
+            <input type="checkbox" name="movie" value="Bewafaa"> Bewafaa<br>
+            <input type="checkbox" name="movie" value="Son of Sardar">Son of Sardar<br>
+            <input type="checkbox" name="movie" value="Toilet ek prem katha">Toilet ek prem katha<br>
+            <input type="checkbox" name="movie" value="Ishq"> Ishq<br>
+            <input type="checkbox" name="movie" value="Sanam teri Kasam">Sanam teri Kasam<br>
+            <input type="checkbox" name="movie" value="Dear Zindagi">Dear Zindagi<br>
+            <input type="checkbox" name="movie" value="Humpaty Sharma ki dulhaniya">Humpaty Sharma ki dulhaniya<br>
+        </div>
+        </form>
+    <button class="btn">Book Now</button>
+</body>
+</html>

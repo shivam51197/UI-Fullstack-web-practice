@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Offcanvas</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <style>
+        .btn-close{
+            float: right;
+           
+        }
+    </style>
+</head>
+
+<body class="container-fluid">
+    <div class="btn-toolbar bg-dark p-2 justify-content-between">
+        <div>
+            <button data-bs-target="#menu" data-bs-toggle="Offcanvas" class="bi btn btn-light bi-justify fs-4"></button>
+            <span class="fs-4 text-white ms-3">Shopper.</span>
+        </div>
+        <div>
+            <button data-bs-toggle="Offcanvas" data-bs-target="#setting" class="bi bi-gear-fill btn btn-light"></button>
+        </div>
+    </div>
+    <div class="Offcanvas Offcanvas-start" id="menu">
+        <div class="offcanvas-header bg-dark text-white">
+            <h2>Shopper.</h2>
+            <button class="btn btn-close btn-close-white " data-bs-dismiss="Offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul>
+                <li>Home</li>
+                <li>Electronics</li>
+                <li>Fashion</li>
+                <li>Footwear</li>
+            </ul>
+        </div>
+    </div>
+    <div class="Offcanvas offcanvas-bottom" id="#setting">
+        <div class="offcanvas-header">
+            <button class="btn btn-close" data-bs-dismiss="Offcanvas"></button>
+        </div>
+        <div class="offcanvas-body d-flex justify-content-around">
+            <button class="bi fs-1 bi-brightness-high btn btn-lg"></button>
+            <button class="bi fs-1 bi-tv-fill btn btn-lg"></button>
+            <button class="bi fs-1 bi-bell-fill btn btn-lg"></button>
+        </div>
+    </div>
+</body>
+</html>

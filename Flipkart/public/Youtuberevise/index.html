@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube revision</title>
+    <link rel="stylesheet" href="../../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .bi-justify {
+            font-size: 30px;
+        }
+
+        .youtube-logo {
+            font-weight: bold;
+        }
+
+        .search-bar {
+            width: 450px;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 15px;
+            display: inline-flex;
+            justify-content: space-between;
+        }
+
+        .bi-mic-fill {
+            background: rgb(226, 206, 210);
+            border-radius: 50px;
+            font-size: 22px;
+            margin-left: 15px;
+        }
+
+        .bi-three-dots-vertical {
+            font-size: 20px;
+        }
+
+        .bi-person-circle {
+            font-size: 20px;
+            border: 1px solid blue;
+            border-radius: 15px;
+            padding: 3px;
+            color: blue;
+        }
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr 11fr;
+            margin-top: 20px;
+
+        }
+
+        .side-icon {
+            margin-bottom: 20px;
+            padding-left: 30px;
+        }
+
+        .banner {
+            border-radius: 30px;
+        }
+
+        article {
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+            margin-top: 20px;
+            font-family: Arial;
+        }
+
+        .article-title {
+            font-weight: bold;
+            font-size: 25px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .article-subtitle {
+            color: gray;
+            margin-bottom: 10px;
+        }
+
+        .article-summary {
+            color: gray;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 460px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .bi-bell-fill {
+            margin-top: 20px;
+            display: block;
+            background-color: rgb(194, 36, 36);
+            color: white;
+            padding: 5px;
+            width: 100px;
+            border-radius: 20px;
+        }
+
+        /* main {
+            height: 500px;
+            overflow: auto;
+        } */
+        .nav-tabs {
+            font-family: Arial;
+            font-weight: bold;
+            color: gray;
+            margin-top: 40px;
+            border-bottom: 1px solid lightgray;
+            padding-bottom: 10px;
+        }
+
+        .nav-tabs span {
+            margin-right: 50px;
+        }
+
+        .nav-tabs span:first-child {
+            color: black;
+        }
+
+        .channel-highlights {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            grid-gap: 40px;
+            margin-top: 50px;
+            width: 85%;
+        }
+
+        .channel-highlights iframe {
+            width: 100%;
+            height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <span class="bi bi-justify"></span>
+            <img src="../../../Flipkart/public/images/youtube-logo.PNG" class="youtube-logo">
+        </div>
+        <div>
+            <div class="search-bar">
+                <span>Search</span>
+                <span class="bi bi-search"></span>
+            </div>
+            <span class="bi  bi-mic-fill"></span>
+        </div>
+        <div>
+            <span class="bi bi-three-dots-vertical"></span>
+            <span class="bi bi-person-circle">Sign in</span>
+        </div>
+        </div>
+    </header>
+    <section>
+        <div>
+            <div class="side-icon">
+                <span class="bi bi-house-door"></span>
+                <div>Home</div>
+            </div>
+            <div class="side-icon">
+                <span class="bi bi-film"></span>
+                <div>Video</div>
+            </div>
+            <div class="side-icon">
+                <span class="bi bi-camera-video"></span>
+                <div>Live</div>
+            </div>
+            <div class="side-icon">
+                <span class="bi bi-clock-history"></span>
+                <div>History</div>
+            </div>
+            <div class="side-icon">
+                <span class="bi bi-stopwatch"></span>
+                <div>Watch later</div>
+            </div>
+        </div>
+        <main>
+            <div>
+                <img src="../../../Flipkart/public/images/Nit-banner.jpg" class="banner">
+            </div>
+            <article>
+                <div>
+                    <img src="../images/nit-logo.jpg">
+                </div>
+                <div>
+                    <div class="article-title">Naresh i Technologies</div>
+                    <div class="article-subtitle">@NareshIT•1.29M subscribers• 3.2K videos</div>
+                    <div class="article-summary">
+                        We are one of the software training organization With a library of 200+ courses, we have helped
+                        600,000+ professionals advance their careers in almost every possible phase of academics,
+                        interviews, jobs and delivering improvement in pay raises ...more</div>
+                    <div>
+                        <a href="https://www.instagram.com/nareshitech">instagram.com/nareshitech</a>; and 7 more links
+                    </div>
+                    <div>
+                        <span class="bi bi-bell-fill"> Subscribe </span>
+                    </div>
+                </div>
+            </article>
+            <div class="nav-tabs">
+                <span>Home</span>
+                <span>Videos</span>
+                <span>Shorts</span>
+                <span>Live</span>
+                <span>Playlists</span>
+                <span>Community</span>
+                <span class="bi bi-search"></span>
+            </div>
+            <div class="channel-highlights">
+                <div>
+                    <iframe src="https://www.youtube.com/embed/yBw-6rr5hbA"></iframe>
+                </div>
+                <div>
+                    <b>Best Software Training Institute with Placements - Naresh i Technologies</b>
+                    <br><br>
+                    <div><small>
+                            <font color="gray">226,589 views 4 years ago</font>
+                        </small></div>
+                    <br>
+                    <div>Register For Free Demos On New Batches :-</div>
+
+                    <div>
+                        Free Weekend Workshop on Azure AI Certification Training<br> | @ 5:30 PM :- <a
+                            href="https://shorturl.at/9gcXZ">https://shorturl.at/9gcXZ</a>
+                        <br><br>
+                        Free Workshop on LangChain Build AI Applications Using LLM <br> | @ 10:00 AM :- <a
+                            href="https://shorturl.at/g69kl">https://shorturl.at/g69kl</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Modal</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<style>
+    .btn-close {
+        float: right;
+    }
+    
+</style>
+
+<body class="container-fluid">
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+    <a data-bs-toggle="modal" href="#Offers" class="btn-warning mt-2">Offers</a>
+
+    <div class="modal fade" id="login">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content ">
+                <div class="madal-header">
+                    <h3 class="bi bi-person-fill d-flex justify-content-center">User Login</h3>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <dl>
+                        <dt>User Name</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Password</dt>
+                        <dd><input type="Password" class="form-control"></dd>
+                        <dt>Email</dt>
+                        <dd><input type="email" class="form-control"></dd>
+                        <dt>Address</dt>
+                        <dd><input type="text" class="form-control"></dd>
+                        <dt>Mobile NO.</dt>
+                        <dd><input type="number" class="form-control"></dd>
+                        <dt>Postcode</dt>
+                        <dd><input type="number" class="form-control"></dd>
+                        <dt>Adharcard NO.</dt>
+                        <dd><input type="number" class="form-control"></dd>
+                    </dl>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success">Login</button>
+                    <button class="btn btn-danger ms-2" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Offers">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Festival SALE</h2>
+                    <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body mt-4 d-flex justify-content-center">
+                    <div>
+                        <img src="../Flipkart/public/images/watch.jfif" width="150" height="150">
+                        <button class="btn btn-dark bi bi-eye mt-2">View Offer</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
